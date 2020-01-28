@@ -555,3 +555,73 @@ else
   end
 
 end)
+
+
+ESX.RegisterUsableItem('combo1', function(source)
+
+ local xPlayer  = ESX.GetPlayerFromId(source)
+
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo1: Hamburguesa de Carne  ',length = 7500})
+ Citizen.Wait(150)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo1: InkaCola  ',length = 7500})
+ Citizen.Wait(150)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo1: Papas Fritas  ',length = 7500})
+
+end)
+
+ESX.RegisterUsableItem('combo2', function(source)
+
+ local xPlayer  = ESX.GetPlayerFromId(source)
+
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo2: Pollo Broster  ',length = 7500})
+ Citizen.Wait(150)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo2: Cocacola  ',length = 7500})
+ Citizen.Wait(150)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo2: Hamburguesa de Pollo  ',length = 7500})
+
+end)
+
+ESX.RegisterUsableItem('combo3', function(source)
+
+ local xPlayer  = ESX.GetPlayerFromId(source)
+
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo3: Papas Fritas  ',length = 7500})
+ Citizen.Wait(150)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo3: Hamburguesa de Pollo  ',length = 7500})
+ Citizen.Wait(150)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo3: Sprite  ',length = 7500})
+
+end)
+
+ESX.RegisterUsableItem('combo4', function(source)
+
+ local xPlayer  = ESX.GetPlayerFromId(source)
+
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo4: Pollo Broster  ',length = 7500})
+ Citizen.Wait(150)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo4: Hamburguesa de Carne  ',length = 7500})
+ Citizen.Wait(150)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo4: InkaCola  ',length = 7500})
+
+end)
+
+ESX.RegisterUsableItem('combo5', function(source)
+
+ local xPlayer  = ESX.GetPlayerFromId(source)
+
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo5: Nuggets  ',length = 7500})
+ Citizen.Wait(150)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo5: Hamburguesa de Pollo  ',length = 7500})
+ Citizen.Wait(150)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' Orden Combo5: Sprite  ',length = 7500})
+
+end)
+
+ESX.RegisterUsableItem('ticket', function(source)
+
+ local xPlayer  = ESX.GetPlayerFromId(source)
+
+ xPlayer.removeInventoryItem('ticket', 1)
+ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = ' acabas de borrar el ticket.  ',length = 3500})
+
+end)
