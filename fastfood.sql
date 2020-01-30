@@ -7,7 +7,7 @@ INSERT INTO `jobs` (`name`, `label`, `whitelisted`) VALUES
 	;
 
 INSERT INTO `job_grades` (`id`, `job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES
-   ('fastfood', 0, 'Trabajador', 'Trabajador', 10, '{\r\n"tshirt_1":15,\r\n"tshirt_2":0,\r\n"torso_1":281,\r\n"torso_2":1,\r\n"pants_1":98,\r\n"pants_2":25,\r\n"decals_2":0,\r\n"decals_1":0,\r\n"chain_1":0,\r\n"glasses":0,\r\n"arms":0\r\n}', '{"tshirt_1":15,\r\n"tshirt_2":0,\r\n"torso_1":294,\r\n"torso_2":1,\r\n"pants_1":101,\r\n"pants_2":25,\r\n"decals_2":0,\r\n"decals_1":0,\r\n"chain_1":0,\r\n"glasses":0,\r\n"arms":0}'),
+   (0,'fastfood', 0, 'Trabajador', 'Trabajador', 10, '{\r\n"tshirt_1":15,\r\n"tshirt_2":0,\r\n"torso_1":281,\r\n"torso_2":1,\r\n"pants_1":98,\r\n"pants_2":25,\r\n"decals_2":0,\r\n"decals_1":0,\r\n"chain_1":0,\r\n"glasses":0,\r\n"arms":0\r\n}', '{"tshirt_1":15,\r\n"tshirt_2":0,\r\n"torso_1":294,\r\n"torso_2":1,\r\n"pants_1":101,\r\n"pants_2":25,\r\n"decals_2":0,\r\n"decals_1":0,\r\n"chain_1":0,\r\n"glasses":0,\r\n"arms":0}'),
 ;
 
 INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`, `price`) VALUES
