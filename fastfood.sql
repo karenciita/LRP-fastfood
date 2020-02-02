@@ -18,6 +18,8 @@ INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`, `price`) VA
 ('hcarnefrita', 'Carne Frita', 1, 0, 1, 0),
 ('hpollocrudo', 'Pollo Crudo', 1, 0, 1, 0),
 ('hpollofrito', 'Pollo Frito', 1, 0, 1, 0),
+('brostercrudo', 'Broster crudo', 1, 0, 1, 0),
+('brosterfrito', 'Broster frito', 1, 0, 1, 0),
 ('nuggetscrudo', 'Nugets Crudos', 1, 0, 1, 0),
 ('nuggetsfrito', 'Nugets Frito', 1, 0, 1, 0),
 ('pancortado', 'Pan Cortado', 1, 0, 1, 0),
